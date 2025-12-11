@@ -1,0 +1,23 @@
+android_app {
+    name: "SimpleBuddyAssistant",
+    
+    srcs: [
+        "MainActivity.java",
+        "BuddyAssistantService.java",
+        "AICommandProcessor.java",
+        "AlwaysOnService.java",
+    ],
+    
+    resource_dirs: ["res"],
+    
+    manifest: "AndroidManifest.xml",
+    
+    platform_apis: true,
+    
+    certificate: "platform",
+    
+    privileged: true,
+    
+    system_ext_specific: true,
+    
+}

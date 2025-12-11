@@ -1,0 +1,57 @@
+# Exclude all markdown documentation files
+*.md
+
+# Exclude temporary testing and build scripts
+test_*.sh
+build_*.sh
+install_*.sh
+deploy_*.sh
+check_*.sh
+fix_*.sh
+create_*.sh
+comprehensive_*.sh
+simple_*.sh
+voice_command_interface.sh
+download_*.sh
+setup_*.sh
+verify_*.sh
+integrate_*.sh
+
+# Exclude build logs and temporary files
+*.log
+*.txt
+build_error.log
+build_log.txt
+clean_rom_build_log.txt
+final_clean_rom_build_log.txt
+final_selinux_fixed_rom_build_log.txt
+final_successful_rom_build_log.txt
+full_rom_build_log.txt
+full_rom_build_with_speech_log.txt
+
+# Exclude build artifacts
+out/
+*.apk
+*.jar
+*.dex
+*.class
+
+# Exclude IDE files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+
+# Keep system .sh files in subdirectories (kernel, tools, etc.)
+!kernel/**/*.sh
+!tools/**/*.sh
+!build/**/*.sh
+!device/**/*.sh
+!vendor/**/*.sh
+
